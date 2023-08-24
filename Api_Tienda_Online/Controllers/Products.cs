@@ -87,6 +87,7 @@ namespace Api_Tienda_Online.Controllers
             return BadRequest(valid);
         }
 
+        [Authorize]
         [HttpDelete("Product/{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
