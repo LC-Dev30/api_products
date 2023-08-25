@@ -1,1 +1,3 @@
-﻿./appsettings
+﻿# Ignorar archivos de configuración
+appsettings.json
+appsettings*.json
