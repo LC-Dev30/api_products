@@ -13,6 +13,7 @@ namespace Capa_Repositorio.RepositorioProductos
 {
     public class RepositorioProducto : IProductosRepositorio
     {
+        //context
         private TiendaOnlineContext _context;
      
 
